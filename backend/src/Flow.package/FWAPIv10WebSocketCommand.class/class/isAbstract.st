@@ -1,4 +1,4 @@
 testing
 isAbstract
 
-	^ self = FWAPIv10WebSocketCommand 
+	^ self = FWAPIv10WebSocketCommand

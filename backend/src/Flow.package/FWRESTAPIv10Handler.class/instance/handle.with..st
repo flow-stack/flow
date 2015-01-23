@@ -9,11 +9,11 @@ handle: aRequest with: aResponse
 
 	"Basic sanity check first..."
 	(self isValid: aRequest) ifFalse:[
-		^ ZnResponse badRequest: aRequest ].
-
+		^ ZnResponse badRequest: aRequest  ].
+	
 	"...ok, looks good. Lets the API tell us what command will take care of it..."
 	command := FWRESTAPIv10Command fromRequest: aRequest.
-
+	
 	"...and do it..."
 	^ [ [ command valueOn: self ]
 		on: ConnectionTimedOut
@@ -22,4 +22,4 @@ handle: aRequest with: aResponse
 			do:[ :x| 
 				Flow isProduction 
 					ifFalse: [ ZnResponse serverError: x printString ]
-					ifTrue: [ ZnResponse badRequest: aRequest ] ]
+					ifTrue: [ ZnResponse badRequest: aRequest  ] ]

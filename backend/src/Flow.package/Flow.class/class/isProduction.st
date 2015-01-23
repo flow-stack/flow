@@ -1,4 +1,6 @@
 testing
 isProduction
 
-	^ ConfigurationFiles  at: 'Flow' at: 'isProduction'
+	^ false
+
+	"ConfigurationFiles  at: 'Flow' at: 'isProduction'"

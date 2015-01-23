@@ -2,6 +2,6 @@ actions
 databaseDo: aBlock
 	"Evaluates aBlock in the context of a database"
 
-	^ MongoPool instance
+	^ MaplessGemstoneContainer current
 		databaseAt: self databaseName
 		do: [ ^ aBlock value ]

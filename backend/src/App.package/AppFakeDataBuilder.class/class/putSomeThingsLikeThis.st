@@ -1,4 +1,4 @@
-actions
+other
 putSomeThingsLikeThis
 	"Sets part of the thigns to be like this."
 	
@@ -9,4 +9,4 @@ putSomeThingsLikeThis
 			thing 
 				beLikeThis; 
 				price: (1500 to: 1900) atRandom;
-				save] ] 
+				save] ]

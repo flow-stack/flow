@@ -1,0 +1,14 @@
+{
+	"category" : "App-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GemstoneApp",
+	"pools" : [
+		 ],
+	"super" : "App",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 initialization
 initializeBase
 
-	^ base := self class basePath 
+	^ base := self class basePath

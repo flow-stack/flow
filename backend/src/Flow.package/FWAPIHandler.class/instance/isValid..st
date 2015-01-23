@@ -1,4 +1,4 @@
 testing
 isValid: aRequest 
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility
