@@ -1,11 +1,10 @@
 {
 	"category" : "App",
 	"classinstvars" : [
-		"timer",
-		"mta" ],
-	"classvars" : [
 		 ],
-	"commentStamp" : "sebastiansastre 7/7/2014 09:54",
+	"classvars" : [
+		"timer" ],
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
 	"name" : "App",

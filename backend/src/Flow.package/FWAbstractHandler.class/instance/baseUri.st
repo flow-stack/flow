@@ -1,4 +1,4 @@
 accessing
 baseUri
 
-	^ self class basePath asZnUrl 
+	^ self class basePath asZnUrl

@@ -4,4 +4,4 @@ hasModelNameFor: aSingularOrPluralModelName
 	
 	^ FWAPIModel allSubclasses anySatisfy: [ :e | 
 		e pluralName = aSingularOrPluralModelName or:[
-		e singularName = aSingularOrPluralModelName ] ] 
+		e singularName = aSingularOrPluralModelName ] ]

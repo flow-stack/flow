@@ -7,11 +7,10 @@ isValidFor: aRequest
 		
 	"ok, what about the method?"
 	(self acceptedMethods anySatisfy:[ :each|
-		each = aRequest method ]) and:[
+		each = aRequest method]) and:[
 		
 	"and do we even have a model to take care of this?"
 	(self hasModelNameFor: aRequest uri segments third) and:[
 	
 	"ok, and it ends in a sane way?"
-	self hasValidDetailsFor: aRequest ] ] ]
-
+	(self hasValidDetailsFor: aRequest )] ] ]

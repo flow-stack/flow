@@ -1,0 +1,14 @@
+{
+	"category" : "PetShop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ShopVisitor",
+	"pools" : [
+		 ],
+	"super" : "FWAPIModel",
+	"type" : "normal" }

@@ -1,5 +1,5 @@
 initialization
 initializeProtection
 
-	^ protection := Mutex new
+	^ protection := TransientMutex new
 	

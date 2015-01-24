@@ -2,4 +2,10 @@ actions
 setUp
 	super setUp.
 	
-	FWRESTAPIv10Command databaseName: self databaseName
+    registry := GemServerRegistry singleton.
+    GemServerRegistry _singleton: nil.
+	
+    FWRESTAPIv10Command databaseName: self databaseName.
+
+
+	System commitTransaction.

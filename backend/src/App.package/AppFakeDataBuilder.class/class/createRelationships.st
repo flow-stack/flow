@@ -1,4 +1,4 @@
-actions
+other
 createRelationships
 	"Create some relationships between things."
 	
@@ -11,4 +11,4 @@ createRelationships
 			thing ~= otherThing ifTrue:[
 				thing beRelatedTo: otherThing ].
 			thing save.
-			otherThing save ] ] 
+			otherThing save ] ]
