@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfFlow",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 01/26/2015 23:24",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfFlow",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
