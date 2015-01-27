@@ -8,7 +8,7 @@ setupServer
 
 	(GemServerRegistry gemServerNamed: GemstoneApp flowApplicationServerName) 
 		ifNil:[
-				ZnFlowGemServer register: GemstoneApp flowApplicationServerName
+				ZnNewGemServer register: GemstoneApp flowApplicationServerName on: self apiPortList 
 	].
 
 	

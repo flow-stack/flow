@@ -1,6 +1,8 @@
 other
 stop
 
+	"GemstoneApp stop"
+
 	self stopHttpd.
 
 	self stopTimer.

@@ -17,4 +17,4 @@ flowDevelopmentDebugScript
 
 	System commitTransaction. 
 
-	 mInstance startServiceOn: GemstoneApp apiPort
+	 mInstance startServiceOn: GemstoneApp defaultApiPort
