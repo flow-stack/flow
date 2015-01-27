@@ -23,11 +23,11 @@ baseline: spec
           with: [ 
               spec
                 requires:
-                  #('ZincHTTPComponents' 'Mapless' 'ConfigurationFiles' 'MTAClient') ];
+                  #('ZincHTTPComponents' 'Mapless' 'ConfigurationFiles' 'MTAClient' 'App') ];
         package: 'ConfigurationFiles';
         package: 'MTAClient';
         package: 'PetShop' with: [ spec requires: #('Flow') ];
-        package: 'App' with: [ spec requires: #('Flow') ];
+		package: 'App';        
         yourself.
       spec
         group: 'default' with: #('Flow' 'PetShop');
