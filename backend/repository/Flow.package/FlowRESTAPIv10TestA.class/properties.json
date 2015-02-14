@@ -1,0 +1,15 @@
+{
+	"category" : "Flow-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"InteractiveRemoteServer",
+		"StaticRemoteServer" ],
+	"commentStamp" : "dkh 02/14/2015 11:18",
+	"instvars" : [
+		"registry" ],
+	"name" : "FlowRESTAPIv10TestA",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
