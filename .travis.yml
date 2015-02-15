@@ -1,0 +1,26 @@
+language: erlang
+
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/c59e6bffa0b41a693676 # GsDevKit/chat (public)
+    on_success: always # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: false     # default: false
+
+
+env:
+   - ST=GemStone-3.1.0.6
+   - ST=GemStone-3.2.4
+
+install:
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - unzip -q builderCI.zip
+   - cd dalehenrich-builderCI*
+   - source build_env_vars
+   - ln -s $PROJECT_HOME $GIT_PATH
+   - ./build_image.sh
+
+script: $BUILDER_CI_HOME/testTravisCI.sh  # -verbose
