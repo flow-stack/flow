@@ -1,5 +1,6 @@
 actions
 setUp
+  [ 
   | gemServer |
   super setUp.
   registry := GemServerRegistry singleton.
@@ -27,4 +28,10 @@ setUp
     do: [ 
       "force the database to be created"
        ].
-  System commitTransaction
+  System commitTransaction ]
+    on: Error
+    do: [ :ex | 
+      Transcript
+        cr;
+        show: 'setup: ' , ex description;
+        show: (GsProcess stackReportToLevel: 100) ]
