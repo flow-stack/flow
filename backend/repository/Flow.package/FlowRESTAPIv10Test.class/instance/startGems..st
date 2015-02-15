@@ -1,10 +1,10 @@
 private
 startGems: gemServer
-  "FlowRESTAPIv10TestA staticRemoteServer: true.
-   FlowRESTAPIv10TestA interactiveRemoteServer: true.
+  "FlowRESTAPIv10Test staticRemoteServer: true.
+   FlowRESTAPIv10Test interactiveRemoteServer: true.
 
-   FlowRESTAPIv10TestA staticRemoteServer: false.
-   FlowRESTAPIv10TestA interactiveRemoteServer: false."
+   FlowRESTAPIv10Test staticRemoteServer: false.
+   FlowRESTAPIv10Test interactiveRemoteServer: false."
 
   "mount @/sys/stone/dirs/Flow/tode /home flow"
 

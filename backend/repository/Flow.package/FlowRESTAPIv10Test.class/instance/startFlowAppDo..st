@@ -1,7 +1,8 @@
 actions
 startFlowAppDo: aBlock
+  | gemServer |
+  gemServer := self createGemServer.
   [ 
-  GemstoneApp start.
+  self startGems: gemServer.
   aBlock value ]
-    ensure: [ 
-	  GemstoneApp reset]
+    ensure: [ self stopGems: gemServer ]
