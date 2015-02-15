@@ -9,4 +9,5 @@ testCreate
       Transcript
         cr;
         show: 'testCreate: [1] ' , ex description;
-        show: (GsProcess stackReportToLevel: 100) ]
+        show: (GsProcess stackReportToLevel: 100).
+      ex pass ]

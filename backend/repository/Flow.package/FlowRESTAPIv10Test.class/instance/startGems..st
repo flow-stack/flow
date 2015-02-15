@@ -16,4 +16,6 @@ startGems: gemServer
       self
         notify:
           'Proceed when static server is available. Evaluate: abort; /home/flow/debugGemServer --start=FlowAppServer_Test --interactive=true' ]
-    ifFalse: [ gemServer startGems ]
+    ifFalse: [ 
+      gemServer startGems.
+      (Delay forSeconds: 3) wait ]
