@@ -9,6 +9,7 @@ setUp
     on: self gemServerPortList)
     logEverything;
     logToTranscript;
+    logToObjectLog;
     delegate:
         (FWDelegate new
             addHandler: FWRESTAPIv10Handler new;

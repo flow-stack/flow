@@ -1,8 +1,6 @@
 other
 inFlowAppTestUpdate
   | anId registeredThing apiResponse |
-  true
-    ifTrue: [ ^ self ].
   anId := UUID new asString.
   registeredThing := Thing new
     id: anId;
@@ -19,7 +17,7 @@ inFlowAppTestUpdate
   apiResponse := ZnEasy
     put: self apiUrl , '/things'
     data: (ZnStringEntity text: registeredThing asJSONString).
-  self assert: apiResponse code = 201.
+  self assert: apiResponse code = 200.
   System abortTransaction.
   self
     do: [ 

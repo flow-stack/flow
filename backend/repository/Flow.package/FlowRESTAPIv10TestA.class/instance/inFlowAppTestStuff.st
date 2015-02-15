@@ -1,8 +1,6 @@
 other
 inFlowAppTestStuff
   | anId stuff apiResponse answeredOne answeredOnes |
-  true
-    ifTrue: [ ^ self ].
   anId := UUID new asString.
   stuff := Stuff new
     id: anId;

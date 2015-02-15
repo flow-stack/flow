@@ -1,8 +1,6 @@
 other
 inFlowAppTestDelete
   | anId aThing apiResponse |
-  true
-    ifTrue: [ ^ self ].
   anId := UUID new asString.
   aThing := Thing new
     id: anId;
