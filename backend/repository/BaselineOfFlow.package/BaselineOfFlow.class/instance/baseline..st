@@ -9,7 +9,7 @@ baseline: spec
           with: [ 
               spec
                 loads: #('WebSocket' 'CI');
-                repository: 'github://GsDevKit/zinc:gs_master/repository' ];
+                repository: 'github://GsDevKit/zinc:v2.4.3.?/repository' ];
         yourself.
       spec
         baseline: 'Mapless'
