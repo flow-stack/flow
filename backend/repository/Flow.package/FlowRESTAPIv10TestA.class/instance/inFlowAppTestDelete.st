@@ -1,6 +1,8 @@
 other
 inFlowAppTestDelete
   | anId aThing apiResponse |
+  true
+    ifTrue: [ ^ self ].
   anId := UUID new asString.
   aThing := Thing new
     id: anId;
@@ -15,8 +17,8 @@ inFlowAppTestDelete
       self assert: (Thing findId: aThing id) offer = 355.25 ].
   System commitTransaction.
   apiResponse := ZnEasy delete: self apiUrl , '/things/' , aThing id.
-  self assert: apiResponse code = 200.
-  System abortTransaction.
+  [ self assert: apiResponse code = 200 ]
+    ensure: [ System abortTransaction ].
   self
     do: [ 
       self deny: (Thing findId: anId) notNil.
