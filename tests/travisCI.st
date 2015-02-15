@@ -14,7 +14,7 @@ GsDeployer deploy: [
   "Load Flow... "
   Metacello new
     baseline: 'Flow';
-    repository: 'filetree://', gitPath, '/flow/repository';
+    repository: 'filetree://', gitPath, '/flow/backend/repository';
     load: #('CI')
 ].
 
