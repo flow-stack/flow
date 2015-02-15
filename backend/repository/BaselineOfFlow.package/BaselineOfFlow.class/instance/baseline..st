@@ -27,11 +27,12 @@ baseline: spec
         package: 'ConfigurationFiles';
         package: 'MTAClient';
         package: 'PetShop' with: [ spec requires: #('Flow') ];
-		package: 'App';        
+        package: 'App';
         yourself.
       spec
         group: 'default' with: #('Flow' 'PetShop');
         group: 'petshop' with: #('PetShop');
+        group: 'CI' with: #('Flow');
         yourself ].
   spec
     for: #'gemstone'

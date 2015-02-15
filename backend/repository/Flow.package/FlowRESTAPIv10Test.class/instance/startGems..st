@@ -6,7 +6,7 @@ startGems: gemServer
    FlowRESTAPIv10Test staticRemoteServer: false.
    FlowRESTAPIv10Test interactiveRemoteServer: false."
 
-  "mount @/sys/stone/dirs/Flow/tode /home flow"
+  "mount @/sys/stone/dirs/Flow/backend/tode /home flow"
 
   "abort; /home/flow/debugGemServer --start=FlowAppServer_Test --interactive=true"
 
