@@ -22,5 +22,6 @@ install:
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
+   - export GEMSTONE_STONE_DIR="$BUILDER_CI_HOME/tests"
 
 script: $BUILDER_CI_HOME/testTravisCI.sh  # -verbose
