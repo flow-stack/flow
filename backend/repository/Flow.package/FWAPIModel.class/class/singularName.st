@@ -4,4 +4,4 @@ singularName
 	Any subclass can override its own custom name.
 	The default name is the class name in lowercase."
 	
-	^ self name asLowercase 
+	^ self name asLowercase

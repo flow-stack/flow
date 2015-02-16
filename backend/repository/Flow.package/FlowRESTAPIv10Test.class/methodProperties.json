@@ -17,6 +17,7 @@
 		"inFlowAppTestGetOne" : "dkh 02/14/2015 18:19",
 		"inFlowAppTestGetSome" : "dkh 02/14/2015 18:19",
 		"inFlowAppTestGetUnexisting" : "dkh 02/14/2015 18:19",
+		"inFlowAppTestQueryOne" : "jupiter 02/15/2015 01:32",
 		"inFlowAppTestStuff" : "dkh 02/14/2015 18:19",
 		"inFlowAppTestUpdate" : "dkh 02/14/2015 18:19",
 		"interactiveRemoteServer" : "dkh 02/14/2015 18:19",
@@ -32,5 +33,6 @@
 		"testGetOne" : "SebastianHeidbrink 01/16/2015 20:05",
 		"testGetSome" : "SebastianHeidbrink 01/16/2015 20:05",
 		"testGetUnexisting" : "SebastianHeidbrink 01/16/2015 20:05",
+		"testQueryOne" : "jupiter 02/15/2015 01:26",
 		"testStuff" : "SebastianHeidbrink 01/16/2015 20:06",
 		"testUpdate" : "SebastianHeidbrink 01/16/2015 20:06" } }

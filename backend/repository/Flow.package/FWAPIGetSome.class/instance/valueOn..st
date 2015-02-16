@@ -4,4 +4,3 @@ valueOn: aHandler
 		
 	^ self databaseDo: [ 
 		ZnResponse ok: (ZnStringEntity text: self findMany asJSONString) ]
-	

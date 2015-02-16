@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FWAPQueryOne",
+	"pools" : [
+		 ],
+	"super" : "FWAPIGetOne",
+	"type" : "normal" }

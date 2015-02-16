@@ -9,5 +9,3 @@ findMany
 	
 	conditions := Json readFrom: (self class sanitizePayload: self request contents) readStream.
 	^ self apiObjectClass find: conditions
-	
-	

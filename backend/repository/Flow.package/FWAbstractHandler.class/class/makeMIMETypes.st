@@ -11,5 +11,4 @@ makeMIMETypes
 		at: 'gif' put: ZnMimeType imageGif;
 		at: 'jpg' put: ZnMimeType imageJpeg;
 		at: 'jpeg' put: ZnMimeType imageJpeg;
-		yourself 
-		
+		yourself

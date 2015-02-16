@@ -10,4 +10,4 @@ newConflictResponseFor: objectSent
 				modelClass: objectSent class name;
 				yourself.
 						
-	^ ZnResponse conflict: (ZnStringEntity text: json asJSONString)	
+	^ ZnResponse conflict: (ZnStringEntity text: json asJSONString)
