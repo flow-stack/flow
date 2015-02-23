@@ -1,0 +1,4 @@
+other
+shutDown
+
+	self stop
