@@ -19,3 +19,4 @@ writeContentFrom: aRequest
 		stream << content].
 	
 	^ ZnResponse ok: (ZnEntity text: 'OK')
+	

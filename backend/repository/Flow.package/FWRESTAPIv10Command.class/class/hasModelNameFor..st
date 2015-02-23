@@ -4,4 +4,4 @@ hasModelNameFor: aSingularOrPluralModelName
 	
 	^ Mapless allSubclasses anySatisfy: [ :e | 
 		e pluralName = aSingularOrPluralModelName or:[
-		e singularName = aSingularOrPluralModelName ] ]
+		e singularName = aSingularOrPluralModelName ] ] 

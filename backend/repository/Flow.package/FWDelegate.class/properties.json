@@ -10,5 +10,5 @@
 	"name" : "FWDelegate",
 	"pools" : [
 		 ],
-	"super" : "ZnGsWebSocketDelegate",
+	"super" : "ZnWebSocketDelegate",
 	"type" : "normal" }

@@ -1,4 +1,5 @@
 accessing
 base: aString
 
-	base := aString
+	base := aString 
+	

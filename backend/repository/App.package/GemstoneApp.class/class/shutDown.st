@@ -1,4 +1,0 @@
-other
-shutDown
-
-	self stop

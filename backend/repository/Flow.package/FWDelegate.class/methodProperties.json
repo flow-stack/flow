@@ -2,16 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addHandler:" : "SebastianHeidbrink 01/16/2015 20:59",
-		"continuation" : "SebastianHeidbrink 01/16/2015 20:59",
-		"handleRequest:" : "SebastianHeidbrink 01/16/2015 20:59",
-		"handleRequest:gemServer:" : "dkh 02/14/2015 16:19",
-		"handlerFor:" : "SebastianHeidbrink 01/16/2015 20:59",
-		"handlers" : "SebastianHeidbrink 01/16/2015 20:59",
-		"initializeHandlers" : "SebastianHeidbrink 01/16/2015 20:59",
-		"onClient:" : "SebastianHeidbrink 01/16/2015 20:59",
-		"onStop" : "SebastianHeidbrink 01/16/2015 20:59",
-		"restfulRequest:" : "SebastianHeidbrink 01/16/2015 20:59",
-		"restfulRequest:gemServer:" : "dkh 02/14/2015 16:20",
-		"stop" : "SebastianHeidbrink 01/16/2015 20:59",
-		"websocketsHandler" : "SebastianHeidbrink 01/16/2015 20:59" } }
+		"addHandler:" : "sebastiansastre 10/20/2013 11:57",
+		"continuation" : "sebastiansastre 9/21/2014 23:04",
+		"handleRequest:" : "sebastiansastre 7/2/2014 20:28",
+		"handlerFor:" : "sebastiansastre 7/2/2014 20:28",
+		"handlers" : "sebastiansastre 10/20/2013 11:58",
+		"initializeHandlers" : "sebastiansastre 10/20/2013 11:58",
+		"onClient:" : "sebastiansastre 10/20/2013 13:32",
+		"onStop" : "sebastiansastre 10/21/2013 06:04",
+		"restfulRequest:" : "sebastiansastre 7/2/2014 20:29",
+		"stop" : "sebastiansastre 10/21/2013 06:07",
+		"websocketsHandler" : "sebastiansastre 10/20/2013 13:57" } }

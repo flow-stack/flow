@@ -1,5 +1,5 @@
-other
+actions
 clean
 	"Drops the db"
 	
-	App dropDatabase
+	App dropDatabase 

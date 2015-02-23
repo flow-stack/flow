@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'App'!
-SystemOrganization addCategory: #'App-Gemstone'!
+SystemOrganization addCategory: #App!

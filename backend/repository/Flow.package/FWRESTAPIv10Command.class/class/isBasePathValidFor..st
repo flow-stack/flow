@@ -10,3 +10,4 @@ isBasePathValidFor: aRequest
 	^ requestSegments size >= 2 and:[
 	requestSegments first = apiSegments first and:[
 	requestSegments second = apiSegments second ] ]
+	

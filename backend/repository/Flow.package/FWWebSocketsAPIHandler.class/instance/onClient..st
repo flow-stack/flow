@@ -9,3 +9,5 @@ onClient: aWebSocket
 		self process: message on: aWebSocket ] ]
 			on: ConnectionClosed 
 			do: [ self unregister: aWebSocket ].
+	
+	

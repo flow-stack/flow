@@ -10,5 +10,5 @@
 	"name" : "FWAPIObject",
 	"pools" : [
 		 ],
-	"super" : "MaplessGemstone",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-other
+actions
 build
 	"Makes a db and store some fake, yet credible, data in it"
 	
@@ -6,3 +6,4 @@ build
 	
 	self saveThings.
 	self createRelationships.
+	

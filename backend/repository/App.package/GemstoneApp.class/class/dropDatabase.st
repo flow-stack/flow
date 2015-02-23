@@ -1,4 +1,0 @@
-other
-dropDatabase
-
-	MaplessGemstoneContainer reset

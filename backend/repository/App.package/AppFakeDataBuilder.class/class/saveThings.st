@@ -1,4 +1,4 @@
-other
+actions
 saveThings
 	
 	FWRESTAPIv10Command databaseDo:[
@@ -7,3 +7,4 @@ saveThings
 				number: i;
 				fakedOn: DateAndTime now;
 				save ] ].
+	

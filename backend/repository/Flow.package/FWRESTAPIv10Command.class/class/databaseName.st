@@ -1,4 +1,4 @@
 accessing
 databaseName
 
-	^ DatabaseName ifNil:[ DatabaseName := 'AppTests' ]
+	^ConfigurationFiles at: 'App' at: 'database'
