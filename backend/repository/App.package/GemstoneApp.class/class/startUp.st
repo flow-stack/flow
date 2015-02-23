@@ -1,0 +1,4 @@
+other
+startUp
+
+	self restart

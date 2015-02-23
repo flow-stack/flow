@@ -1,0 +1,14 @@
+{
+	"category" : "App",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AppFakeDataBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

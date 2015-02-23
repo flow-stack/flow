@@ -1,1 +1,0 @@
-An AppFakeDataBuilder is a factory to create some db refill so you can do demos like a boss ¯\_(-.o)_/¯ 

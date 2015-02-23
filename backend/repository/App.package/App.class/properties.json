@@ -1,0 +1,14 @@
+{
+	"category" : "App",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"timer" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "App",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

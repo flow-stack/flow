@@ -1,0 +1,14 @@
+{
+	"category" : "PetShop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PetShopFakeDataBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
