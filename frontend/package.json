@@ -22,7 +22,7 @@
     }
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
@@ -42,10 +42,5 @@
     "Smalltalk"
   ],
   "dependencies": {
-  },
-  "volo": {
-    "dependencies": {
-      "text": "github:requirejs/text/2.0.12"
-    }
   }
 }

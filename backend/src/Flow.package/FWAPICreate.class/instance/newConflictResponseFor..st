@@ -5,8 +5,8 @@ newConflictResponseFor: objectSent
 	| json |
 
 	json := JsonObject new
-				message: 'Id already in use';
-				id: objectSent id;
+				message: 'cid already in use';
+				cid: objectSent cid;
 				modelClass: objectSent class name;
 				yourself.
 						

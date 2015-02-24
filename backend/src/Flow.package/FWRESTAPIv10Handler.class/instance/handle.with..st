@@ -21,5 +21,5 @@ handle: aRequest with: aResponse
 			on: Error
 			do:[ :x| 
 				Flow isProduction 
-					ifFalse: [ ZnResponse serverError: x printString ]
+					ifFalse: [ self halt. ZnResponse serverError: x printString ]
 					ifTrue: [ ZnResponse badRequest: aRequest ] ]
