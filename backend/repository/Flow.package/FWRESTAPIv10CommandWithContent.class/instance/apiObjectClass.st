@@ -7,4 +7,3 @@ apiObjectClass
 				at: 'modelClass' 
 				ifAbsent:[ 'UndefinedObject' ]) asSymbol 
 		ifAbsent: [ nil ]
-

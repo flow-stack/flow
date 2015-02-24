@@ -3,10 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"InteractiveRemoteServer",
+		"StaticRemoteServer" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"registry" ],
 	"name" : "FlowRESTAPIv10Test",
 	"pools" : [
 		 ],

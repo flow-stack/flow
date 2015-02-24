@@ -13,4 +13,3 @@ valueOn: aHandler
 					entity: (ZnStringEntity text: (self jsonWithIdFor: objectSent) asJSONString);
 					yourself ]
 			ifTrue:[ self newConflictResponseFor: objectSent ] ]
-	 

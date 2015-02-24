@@ -1,4 +1,4 @@
 testing
 isAbstract
 
-	^ self = FWRESTAPIv10CommandWithContent 
+	^ self = FWRESTAPIv10CommandWithContent

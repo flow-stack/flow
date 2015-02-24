@@ -1,4 +1,3 @@
 actions
-keyFrom: aFilename
-
-	^ aFilename basename readStream upTo: $.
+keyFrom: aDirectoryEntry
+  ^ aDirectoryEntry name readStream upTo: $.

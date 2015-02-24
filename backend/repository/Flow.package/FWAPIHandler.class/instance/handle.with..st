@@ -1,4 +1,4 @@
 actions
 handle: aRequest with: aResponse
 	
-	self subclassResponsibility 
+	self subclassResponsibility

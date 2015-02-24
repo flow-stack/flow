@@ -1,17 +1,9 @@
 actions
 valueOn: aHandler 
 	"Executes this command for aHandler and the request ."
-
-	| conditions foundOrNil |
-
-	^ self databaseDo: [ 
-		self request contents ifNil: [ ^ self newNotFoundFor: nil ].
-		conditions := Json readFrom: (self class sanitizePayload: self request contents) readStream.
-		foundOrNil := self apiObjectClass findOne: conditions.
-
+		
+	^ self databaseDo: [ | foundOrNil |
+		foundOrNil := self apiObjectClass findId: self request uri segments fourth.
 		foundOrNil 
-			ifNil: [ self newNotFoundFor: self request contents  ]
-			ifNotNil: [ 
-				(ConfigurationFiles at: #API at: #isUnreferencing) ifTrue: [ 
-					 foundOrNil unreferenced ].
-				ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ] 
+			ifNil:[ self newNotFoundFor: self request uri segments fourth on: aHandler ]
+			ifNotNil:[ ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ]

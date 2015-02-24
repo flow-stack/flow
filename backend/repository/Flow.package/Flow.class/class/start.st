@@ -1,4 +1,0 @@
-actions
-start
-
-	self startSIGTERMObserver 

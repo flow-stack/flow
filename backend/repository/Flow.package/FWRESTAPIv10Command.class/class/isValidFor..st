@@ -14,4 +14,3 @@ isValidFor: aRequest
 	
 	"ok, and it ends in a sane way?"
 	self hasValidDetailsFor: aRequest ] ] ]
-

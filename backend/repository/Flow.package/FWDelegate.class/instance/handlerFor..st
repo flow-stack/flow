@@ -5,4 +5,3 @@ handlerFor: aRequest
 	^ self handlers
 			detect:[:each| each isHandlerFor: aRequest]
 			ifNone:[nil]
-

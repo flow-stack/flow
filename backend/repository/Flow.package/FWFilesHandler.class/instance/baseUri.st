@@ -1,4 +1,4 @@
 accessing
 baseUri
 
-	^ self base asZnUrl 
+	^ self base asZnUrl
