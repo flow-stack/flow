@@ -1,0 +1,4 @@
+actions
+stop
+
+	self stopSIGTERMObserver  
