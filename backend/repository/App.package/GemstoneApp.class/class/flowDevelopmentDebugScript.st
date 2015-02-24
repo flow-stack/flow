@@ -1,20 +1,15 @@
 other
 flowDevelopmentDebugScript
-
-	| mInstance |
-
-	ZnTransactionSafeManagingMultiThreadedServer initialize.
-	ConfigurationFiles reset. 
-
-	(GemServerRegistry gemServerNamed: GemstoneApp flowApplicationServerName) 
-		ifNotNil:[
-			(GemServerRegistry gemServerNamed: GemstoneApp flowApplicationServerName)  stop; unregister.
-			GemstoneApp setupServer.
-	].
-
-	
-	mInstance := (GemServerRegistry gemServerNamed: GemstoneApp flowApplicationServerName) .
-
-	System commitTransaction. 
-
-	 mInstance startServiceOn: GemstoneApp defaultApiPort
+  | mInstance |
+  ZnTransactionSafeManagingMultiThreadedServer initialize.
+  ConfigurationFiles reset.
+  (GemServerRegistry gemServerNamed: GemStoneApp flowApplicationServerName)
+    ifNotNil: [ 
+      (GemServerRegistry gemServerNamed: GemStoneApp flowApplicationServerName)
+        stop;
+        unregister.
+      GemStoneApp setupServer ].
+  mInstance := GemServerRegistry
+    gemServerNamed: GemStoneApp flowApplicationServerName.
+  System commitTransaction.
+  mInstance startServiceOn: GemStoneApp defaultApiPort

@@ -1,4 +1,3 @@
 other
 dropDatabase
-
-	MaplessGemstoneContainer reset
+  MaplessGemStoneRepository reset
