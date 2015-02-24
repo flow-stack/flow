@@ -7,4 +7,3 @@ saveThings
 				number: i;
 				fakedOn: DateAndTime now;
 				save ] ].
-	

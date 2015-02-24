@@ -5,4 +5,4 @@ startTimer
 		[(Delay forDuration: self pause) wait.
 		self timerTick] repeat] 
 			forkAt: Processor userBackgroundPriority
-			named: 'application timmer' 
+			named: 'application timmer'

@@ -9,5 +9,3 @@ setupServer
 						addHandler: FWWebSocketsAPIHandler new;
 						addHandler: (FWFilesHandler for: (FileLocator imageDirectory / 'service') resolve fullName base: 'service');
 						yourself).
-		
-	

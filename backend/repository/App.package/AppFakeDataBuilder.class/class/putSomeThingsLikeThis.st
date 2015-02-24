@@ -9,4 +9,4 @@ putSomeThingsLikeThis
 			thing 
 				beLikeThis; 
 				price: (1500 to: 1900) atRandom;
-				save] ] 
+				save] ]

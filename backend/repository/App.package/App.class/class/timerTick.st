@@ -1,4 +1,4 @@
 actions
 timerTick
 
-	self mta timerTick 
+	self mta timerTick

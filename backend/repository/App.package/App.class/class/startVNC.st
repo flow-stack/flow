@@ -9,4 +9,4 @@ startVNC
 	RFBServer current 
 		port: (ConfigurationFiles at: 'VNC' at: 'port');
 		allowRemoteConnections: (ConfigurationFiles at: 'VNC' at: 'localOnly') not;
-		start.	
+		start.

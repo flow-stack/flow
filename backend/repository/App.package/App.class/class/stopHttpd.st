@@ -7,5 +7,4 @@ stopHttpd
 	ZnServer default ifNotNil:[
 		ZnServer default delegate stop].
 	
-	ZnServer stopDefault. 
-	
+	ZnServer stopDefault.

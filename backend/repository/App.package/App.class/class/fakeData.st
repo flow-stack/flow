@@ -1,4 +1,4 @@
 accessing
 fakeData
 
-	^ AppFakeDataBuilder 
+	^ AppFakeDataBuilder

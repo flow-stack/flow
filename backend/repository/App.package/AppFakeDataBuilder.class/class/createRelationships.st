@@ -11,4 +11,4 @@ createRelationships
 			thing ~= otherThing ifTrue:[
 				thing beRelatedTo: otherThing ].
 			thing save.
-			otherThing save ] ] 
+			otherThing save ] ]
