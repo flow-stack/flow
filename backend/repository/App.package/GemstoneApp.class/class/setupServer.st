@@ -5,12 +5,9 @@ setupServer
 
 	"
 
-  (GemServerRegistry gemServerNamed: GemStoneApp flowApplicationServerName)
-    ifNil: [ 
-      ZnNewGemServer
-        register: GemStoneApp flowApplicationServerName
-        on: self apiPortList ].
-  (GemServerRegistry gemServerNamed: GemStoneApp flowApplicationServerName)
+  (GemServerRegistry gemServerNamed: self flowApplicationServerName)
+    ifNil: [ ZnNewGemServer register: self flowApplicationServerName on: self apiPortList ].
+  (GemServerRegistry gemServerNamed: self flowApplicationServerName)
     logFilter: nil;
     logToObjectLog;
     debugMode: true;
