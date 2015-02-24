@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FWRootHandler",
+	"pools" : [
+		 ],
+	"super" : "FWAbstractHandler",
+	"type" : "normal" }

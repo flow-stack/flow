@@ -1,0 +1,4 @@
+actions
+makeClient
+
+	^ SMTPClient new

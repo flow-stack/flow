@@ -1,0 +1,15 @@
+{
+	"category" : "Flow-Core",
+	"classinstvars" : [
+		"sigterm" ],
+	"classvars" : [
+		"Packages",
+		"Repository" ],
+	"commentStamp" : "sebsatiansastre 3/7/2012 17:38",
+	"instvars" : [
+		 ],
+	"name" : "Flow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

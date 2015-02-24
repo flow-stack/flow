@@ -1,0 +1,17 @@
+{
+	"category" : "MTAClient",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"from",
+		"to",
+		"subject",
+		"body" ],
+	"name" : "MTAEmail",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

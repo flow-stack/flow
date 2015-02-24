@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sebastiansastre 7/1/2014 22:53",
+	"instvars" : [
+		 ],
+	"name" : "FWRESTAPIv10Handler",
+	"pools" : [
+		 ],
+	"super" : "FWAPIHandler",
+	"type" : "normal" }

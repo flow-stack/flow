@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"isProduction" : "sebastiansastre 7/7/2014 14:45",
+		"makeSIGTERMObserver" : "sebastiansastre 12/4/2014 21:01",
+		"onTerminationSignal" : "sebastiansastre 10/19/2014 14:55",
+		"reset" : "sebastiansastre 10/18/2013 12:37",
+		"start" : "sebastiansastre 10/19/2014 15:40",
+		"startSIGTERMObserver" : "sebastiansastre 10/19/2014 14:51",
+		"stop" : "sebastiansastre 10/19/2014 15:40",
+		"stopSIGTERMObserver" : "sebastiansastre 10/19/2014 14:52" },
+	"instance" : {
+		 } }

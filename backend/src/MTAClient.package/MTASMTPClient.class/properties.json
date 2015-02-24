@@ -1,0 +1,16 @@
+{
+	"category" : "MTAClient",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"queues",
+		"isBusy" ],
+	"name" : "MTASMTPClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

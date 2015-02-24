@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FWAPIUpdate",
+	"pools" : [
+		 ],
+	"super" : "FWRESTAPIv10CommandWithContent",
+	"type" : "normal" }

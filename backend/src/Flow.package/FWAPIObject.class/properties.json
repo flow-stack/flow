@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sebastiansastre 7/1/2014 22:33",
+	"instvars" : [
+		 ],
+	"name" : "FWAPIObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

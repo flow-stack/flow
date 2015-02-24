@@ -1,0 +1,15 @@
+{
+	"category" : "Flow-Handlers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sebastiansastre 4/11/2012 11:34",
+	"instvars" : [
+		"handlers",
+		"applications" ],
+	"name" : "FWAPIHandler",
+	"pools" : [
+		 ],
+	"super" : "FWAbstractHandler",
+	"type" : "normal" }

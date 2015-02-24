@@ -1,0 +1,4 @@
+actions
+beIdle
+
+	isBusy := false

@@ -1,0 +1,1 @@
+This is an example of a model the app can use at the backend and at the frontend.

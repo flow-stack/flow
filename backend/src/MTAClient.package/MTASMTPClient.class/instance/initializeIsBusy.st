@@ -1,0 +1,4 @@
+testing
+initializeIsBusy
+
+	^ isBusy := false

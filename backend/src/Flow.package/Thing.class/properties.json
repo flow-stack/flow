@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sebastiansastre 7/6/2014 19:49",
+	"instvars" : [
+		 ],
+	"name" : "Thing",
+	"pools" : [
+		 ],
+	"super" : "Mapless",
+	"type" : "normal" }
