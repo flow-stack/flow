@@ -13,10 +13,7 @@ baseline: spec
         yourself.
       spec
         baseline: 'Mapless'
-          with: [ 
-              spec
-                loads: #('GemStone' 'CI');
-                repository: 'github://GsDevKit/Mapless:gs_master/repository' ];
+          with: [ spec repository: 'filetree:///opt/git/ta/Mapless/repository' ];
         yourself.
       spec
         package: 'Flow'
