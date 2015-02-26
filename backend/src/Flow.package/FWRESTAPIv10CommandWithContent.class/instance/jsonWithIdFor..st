@@ -2,5 +2,5 @@ accessing
 jsonWithIdFor: aMapless
 
 	^ JsonObject new 
-		at: aMapless class idAttribute put: aMapless id;
+		at: 'id' put: aMapless id;
 		yourself
