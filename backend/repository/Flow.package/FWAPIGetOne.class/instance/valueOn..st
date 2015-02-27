@@ -1,9 +1,14 @@
 actions
-valueOn: aHandler 
-	"Executes this command for aHandler and the request ."
-		
-	^ self databaseDo: [ | foundOrNil |
-		foundOrNil := self apiObjectClass findId: self request uri segments fourth.
-		foundOrNil 
-			ifNil:[ self newNotFoundFor: self request uri segments fourth on: aHandler ]
-			ifNotNil:[ ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ]
+valueOn: aHandler
+  "Executes this command for aHandler and the request ."
+
+  | result |
+  ^ self
+    databaseDo: [ 
+      | conditions foundOrNil |
+      conditions := Json
+        readFrom: (self class sanitizePayload: self request contents) readStream.
+      foundOrNil := self apiObjectClass findOne: conditions.
+      foundOrNil
+        ifNil: [ self newNotFoundFor: conditions asString on: aHandler ]
+        ifNotNil: [ ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ]
