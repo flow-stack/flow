@@ -13,7 +13,7 @@ baseline: spec
         yourself.
       spec
         baseline: 'Mapless'
-          with: [ spec repository: 'filetree:///opt/git/ta/Mapless/repository' ];
+          with: [ spec repository: 'filetree:///opt/git/ta/Mapless/src' ];
         yourself.
       spec
         package: 'Flow'
