@@ -8,4 +8,4 @@ valueOn: aHandler
 		foundOrNil 
 			ifNil:[ self newNotFoundFor: self request uri segments fourth on: aHandler ]
 			ifNotNil:[ ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ]
-	 
+	

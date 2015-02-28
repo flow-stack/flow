@@ -1,4 +1,4 @@
 accessing
 repository: aMaplessRepository
 
-	Repository := aMaplessRepository 
+	Repository := aMaplessRepository

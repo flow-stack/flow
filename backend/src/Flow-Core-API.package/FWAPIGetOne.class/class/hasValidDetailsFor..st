@@ -4,4 +4,4 @@ hasValidDetailsFor: aRequest
 	are looking good"
 
 	^ aRequest uri segments size >= 4 and:[
-	aRequest uri segments fourth = 'queryOne'] 
+	aRequest uri segments fourth = 'queryOne']

@@ -1,5 +1,5 @@
 actions
 stopHttpd
-  (GemServerRegistry gemServerNamed: self flowApplicationServerName)
+  (GemServerRegistry gemServerNamed: self flowServerName)
     stopGems;
     unregister

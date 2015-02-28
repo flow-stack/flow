@@ -22,7 +22,10 @@ setUp
             yourself);
     yourself.
   gemServer stopGems.
-  FWRESTAPIv10Command databaseName: self databaseName.
+  FWRESTAPIv10Command
+    repository:
+      (MaplessGemStoneRepository
+        databaseNamed: (ConfigurationFiles at: 'App' at: 'database')).
   self
     do: [ 
       "force the database to be created"

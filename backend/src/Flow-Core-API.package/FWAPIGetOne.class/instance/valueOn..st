@@ -14,4 +14,4 @@ valueOn: aHandler
 			ifNotNil: [ 
 				(ConfigurationFiles at: #API at: #isUnreferencing) ifTrue: [ 
 					 foundOrNil unreferenced ].
-				ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ] 
+				ZnResponse ok: (ZnStringEntity text: foundOrNil asJSONString) ] ]

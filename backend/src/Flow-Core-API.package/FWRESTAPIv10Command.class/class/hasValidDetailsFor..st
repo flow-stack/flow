@@ -6,4 +6,4 @@ hasValidDetailsFor: aRequest
 	^ aRequest uri segments size = 3 or:[
 
 	(aRequest uri segments size = 4 and:[
-	aRequest uri segments last = #/ ] ) ] 
+	aRequest uri segments last = #/ ] ) ]

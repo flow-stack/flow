@@ -1,1 +1,1 @@
-(name 'Flow-GemStone-Tests-jupiter.1' message '0.2.11 refactor' id 'fe91079f-638f-4c34-bae1-bea3fd5e83fb' date '28 February 2015' time '9:19:54.964362 am' author 'jupiter' ancestors () stepChildren ())
+(name 'Flow-GemStone-Tests-jupiter.2' message 'GemStone tests WIP' id '59a478b6-8c61-43b4-809c-52a2dff7b558' date '03/01/2015' time '13:59:50' author 'jupiter' ancestors ((name 'Flow-GemStone-Tests-jupiter.1' message '0.2.11 refactor' id 'fe91079f-638f-4c34-bae1-bea3fd5e83fb' date '02/28/2015' time '09:19:54' author 'jupiter' ancestors () stepChildren ())) stepChildren ())
