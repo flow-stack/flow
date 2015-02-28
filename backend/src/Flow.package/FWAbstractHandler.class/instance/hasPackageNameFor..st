@@ -1,4 +1,0 @@
-testing
-hasPackageNameFor: aRequest
-
-	^ false

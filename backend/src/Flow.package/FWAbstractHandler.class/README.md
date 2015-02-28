@@ -1,1 +1,0 @@
-AmberMPRestfulHandler lays the foundation to maintain ProxyModel and PersistentModel objects between client and server

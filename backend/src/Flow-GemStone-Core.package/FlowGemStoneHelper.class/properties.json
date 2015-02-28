@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-GemStone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FlowGemStoneHelper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

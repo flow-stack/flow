@@ -1,0 +1,4 @@
+actions
+setupServer
+
+	^self subclassResponsibility

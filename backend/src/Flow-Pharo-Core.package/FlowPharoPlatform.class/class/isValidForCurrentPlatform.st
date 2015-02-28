@@ -1,0 +1,3 @@
+testing
+isValidForCurrentPlatform
+	^ SpEnvironment isSqueak

@@ -1,0 +1,4 @@
+actions
+install
+
+	^ self subclassResponsibility 

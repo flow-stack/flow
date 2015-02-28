@@ -1,1 +1,0 @@
-A FWFilesHandler serves static content and can be configured to serve from a given dir

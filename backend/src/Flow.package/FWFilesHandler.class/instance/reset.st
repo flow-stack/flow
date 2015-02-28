@@ -1,4 +1,0 @@
-actions
-reset
-
-	files := nil

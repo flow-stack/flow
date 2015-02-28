@@ -1,3 +1,0 @@
-other
-dropDatabase
-  MaplessGemStoneRepository reset

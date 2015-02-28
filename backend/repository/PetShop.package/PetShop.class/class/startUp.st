@@ -1,4 +1,0 @@
-actions
-startUp
-
-	self restart

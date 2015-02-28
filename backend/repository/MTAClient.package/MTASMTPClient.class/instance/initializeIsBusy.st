@@ -1,4 +1,0 @@
-testing
-initializeIsBusy
-
-	^ isBusy := false

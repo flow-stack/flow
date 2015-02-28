@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Core-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FWAPIGetOne",
+	"pools" : [
+		 ],
+	"super" : "FWRESTAPIv10Command",
+	"type" : "normal" }

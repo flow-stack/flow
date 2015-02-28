@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Pharo-Core-Flow-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"sigterm" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FlowPharoPlatform",
+	"pools" : [
+		 ],
+	"super" : "FlowPlatform",
+	"type" : "normal" }
