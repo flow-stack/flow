@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Core-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DatabaseName" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FWRESTAPIv10CommandWithContent",
+	"pools" : [
+		 ],
+	"super" : "FWRESTAPIv10Command",
+	"type" : "normal" }

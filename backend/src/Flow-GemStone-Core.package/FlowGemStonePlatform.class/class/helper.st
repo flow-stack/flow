@@ -1,3 +1,3 @@
 accessing
 helper
-	^ FlowGemStoneHelper 
+	^ FlowGemStoneHelper

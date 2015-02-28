@@ -22,7 +22,13 @@ baselinePharo: spec
 					spec
 						repository: 'http://smalltalkhub.com/mc/PharoExtras/RFB/main';
 						version: #stable ].
-			spec package: 'Flow-Pharo-Core' with: [ spec requires: #('SPort2' 'RFB' 'Flow-Core') ].
+			spec
+				configuration: 'OSProcess'
+				with: [ 
+					spec
+						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main';
+						version: #stable ].
+			spec package: 'Flow-Pharo-Core' with: [ spec requires: #('OSProcess' 'SPort2' 'RFB' 'Flow-Core') ].
 			spec package: 'Flow-Pharo-Tests' with: [ spec requires: #('Flow-Pharo-Core') ].
 			spec
 				group: 'default' with: #('Core' 'Flow-Pharo-Core');

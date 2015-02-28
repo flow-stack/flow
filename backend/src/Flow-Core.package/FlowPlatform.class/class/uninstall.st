@@ -1,4 +1,4 @@
 actions
 uninstall
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

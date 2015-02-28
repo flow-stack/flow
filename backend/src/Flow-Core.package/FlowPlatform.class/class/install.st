@@ -1,4 +1,4 @@
 actions
 install
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

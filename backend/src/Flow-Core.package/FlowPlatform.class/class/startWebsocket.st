@@ -1,4 +1,4 @@
 actions
 startWebsocket
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

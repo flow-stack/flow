@@ -1,4 +1,4 @@
 actions
 webSocketAPI
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

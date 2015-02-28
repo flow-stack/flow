@@ -1,4 +1,4 @@
 actions
 addTo: aString 
 
-	^ self to add: aString 
+	^ self to add: aString

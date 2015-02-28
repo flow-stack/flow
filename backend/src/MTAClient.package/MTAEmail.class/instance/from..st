@@ -1,4 +1,4 @@
 accessing
 from: aString
 
-	from := aString 
+	from := aString

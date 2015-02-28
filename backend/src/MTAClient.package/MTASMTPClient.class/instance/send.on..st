@@ -4,4 +4,4 @@ send: anEmail on: anAccountName
 	
 	(self queues 
 		at: anAccountName 
-		ifAbsentPut:[OrderedCollection new]) addLast: anEmail 
+		ifAbsentPut:[OrderedCollection new]) addLast: anEmail

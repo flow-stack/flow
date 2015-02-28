@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Core-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FV 1/30/2015 14:08",
+	"instvars" : [
+		 ],
+	"name" : "FWAPIModel",
+	"pools" : [
+		 ],
+	"super" : "Mapless",
+	"type" : "normal" }
