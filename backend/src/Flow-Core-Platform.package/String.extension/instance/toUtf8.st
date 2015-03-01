@@ -1,4 +1,4 @@
-*Flow-Core
+*Flow-Core-Platform
 toUtf8
 	"Answers the string which is the result of decoding the receiver in utf8"
 	
