@@ -1,4 +1,0 @@
-actions
-stop
-
-	self onStop

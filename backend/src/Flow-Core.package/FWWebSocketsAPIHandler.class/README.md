@@ -1,1 +1,0 @@
-A FWWebSocketsAPIHandler is the custom Zinc handler we use to receive new WebSocket connections and route messages

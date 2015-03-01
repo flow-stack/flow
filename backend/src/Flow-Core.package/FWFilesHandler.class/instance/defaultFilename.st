@@ -1,4 +1,0 @@
-accessing
-defaultFilename
-
-	^ 'index.html'

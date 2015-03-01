@@ -1,1 +1,0 @@
-Deprecated, It is going to be removed in the next version.

@@ -1,4 +1,0 @@
-testing
-isCodeFor: aRequest
-
-	^ false

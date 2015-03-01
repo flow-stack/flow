@@ -1,1 +1,0 @@
-A CowlinqAPIHandler is the custom Zinc REST handler we use to receive and answer validated commands
