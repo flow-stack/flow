@@ -10,6 +10,9 @@ pharo-vm/
 pharo
 pharo-ui
 
+package-cache/
+github-cache/
+
 # Project specific temporaries / requisites / transient #
 #########################################################
 vm/

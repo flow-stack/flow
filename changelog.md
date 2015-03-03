@@ -1,3 +1,10 @@
+March 2, 2015 - Release 0.2.13
+===================================
+
+* We upgraded Mapless to the refactored packages version.
+* Also flow got refactored its packages in many easy to maintain packages.
+
+
 February 18, 2015 - Release 0.2.12
 ===================================
 

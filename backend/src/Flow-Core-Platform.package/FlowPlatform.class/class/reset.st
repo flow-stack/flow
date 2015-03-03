@@ -1,7 +1,7 @@
 actions
 reset
 
-	FlowPlatform current reset.
+	ConfigurationFiles reset.
 
 	FWRESTAPIv10Command reset.
 		

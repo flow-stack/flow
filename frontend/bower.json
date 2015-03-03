@@ -1,7 +1,7 @@
 {
   "name": "flow",
   "description": "A living full-stack framework for the web.",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "ignore": [
     "**/.*",
     "node_modules",
