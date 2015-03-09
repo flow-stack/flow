@@ -2,9 +2,6 @@
 ====
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/flow-stack/flow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![[Analytics](http://ga-beacon.appspot.com/UA-8765087-15/flow-stack/flow?pixel](https://github.com/igrigorik/ga-beacon)
-
-
 A living full-stack framework for the web. 
 
 ## Why *flow*?
