@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"dropDatabase" : "jupiter 2/27/2015 21:11",
+		"install" : "jupiter 2/27/2015 21:13",
+		"isValidForCurrentPlatform" : "jupiter 2/27/2015 20:53",
+		"makeDispatcher" : "jupiter 2/27/2015 21:14",
+		"mta" : "jupiter 2/27/2015 21:23",
+		"setupServer" : "jupiter 2/27/2015 21:29",
+		"startHttpd" : "jupiter 2/27/2015 21:33",
+		"startVNC" : "jupiter 2/27/2015 21:38",
+		"startWebsocket" : "jupiter 2/27/2015 21:38",
+		"stopHttpd" : "jupiter 2/27/2015 21:47",
+		"stopVNC" : "jupiter 2/27/2015 21:49",
+		"uninstall" : "jupiter 2/27/2015 21:54",
+		"webSocketAPI" : "jupiter 2/27/2015 21:55" },
+	"instance" : {
+		 } }

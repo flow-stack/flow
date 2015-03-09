@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Stuff",
+	"pools" : [
+		 ],
+	"super" : "Mapless",
+	"type" : "normal" }

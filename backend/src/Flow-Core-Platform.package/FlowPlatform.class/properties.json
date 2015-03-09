@@ -1,0 +1,16 @@
+{
+	"category" : "Flow-Core-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current",
+		"heartbeat",
+		"mta" ],
+	"commentStamp" : "jupiter 2/27/2015 22:04",
+	"instvars" : [
+		 ],
+	"name" : "FlowPlatform",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

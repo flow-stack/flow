@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FlowPharoHelper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Flow-Pharo-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FlowPharoTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

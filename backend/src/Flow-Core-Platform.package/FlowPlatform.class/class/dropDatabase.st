@@ -1,0 +1,4 @@
+actions
+dropDatabase
+
+	^ self subclassResponsibility

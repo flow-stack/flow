@@ -1,4 +1,0 @@
-actions
-reset
-
-	ConfigurationFiles reset

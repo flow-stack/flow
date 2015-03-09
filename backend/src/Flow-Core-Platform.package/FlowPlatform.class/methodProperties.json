@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"api" : "jupiter 2/27/2015 22:13",
+		"current" : "jupiter 2/27/2015 20:56",
+		"dropDatabase" : "jupiter 2/27/2015 21:06",
+		"heartbeat" : "jupiter 2/27/2015 21:52",
+		"helper" : "jupiter 2/28/2015 08:27",
+		"initializeCurrentPlatform" : "jupiter 2/27/2015 20:56",
+		"install" : "jupiter 2/27/2015 21:54",
+		"isProduction" : "sebastiansastre 7/7/2014 14:45",
+		"isValidForCurrentPlatform" : "jupiter 2/27/2015 20:52",
+		"pulseRate" : "jupiter 2/28/2015 07:55",
+		"reset" : "sebastiansastre 3/2/2015 23:16",
+		"restart" : "jupiter 2/27/2015 21:29",
+		"setupServer" : "jupiter 2/27/2015 21:30",
+		"shutDown" : "jupiter 2/27/2015 21:31",
+		"start" : "sebastiansastre 3/2/2015 23:15",
+		"startHeartbeat" : "jupiter 2/28/2015 07:53",
+		"startHttpd" : "jupiter 2/27/2015 21:33",
+		"startUp" : "jupiter 2/27/2015 21:37",
+		"startWebsocket" : "jupiter 2/27/2015 21:39",
+		"stop" : "jupiter 2/27/2015 21:50",
+		"stopHeartbeat" : "jupiter 2/27/2015 21:49",
+		"stopHttpd" : "jupiter 2/27/2015 21:47",
+		"uninstall" : "jupiter 2/27/2015 21:54",
+		"webSocketAPI" : "jupiter 2/27/2015 21:55" },
+	"instance" : {
+		 } }

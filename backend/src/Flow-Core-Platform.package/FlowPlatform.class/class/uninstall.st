@@ -1,0 +1,4 @@
+actions
+uninstall
+
+	^ self subclassResponsibility

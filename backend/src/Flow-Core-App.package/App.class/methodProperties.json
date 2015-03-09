@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"api" : "jupiter 2/27/2015 21:58",
+		"dropDatabase" : "jupiter 2/27/2015 21:12",
+		"heartbeat" : "jupiter 2/27/2015 21:52",
+		"install" : "jupiter 2/27/2015 21:14",
+		"restart" : "jupiter 2/27/2015 21:29",
+		"shutDown" : "jupiter 2/27/2015 22:01",
+		"start" : "jupiter 2/27/2015 21:40",
+		"startUp" : "jupiter 2/27/2015 22:00",
+		"stop" : "jupiter 2/27/2015 21:56",
+		"uninstall" : "jupiter 2/27/2015 21:54",
+		"webSocketApi" : "jupiter 2/27/2015 21:59" },
+	"instance" : {
+		 } }
