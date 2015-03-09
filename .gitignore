@@ -29,6 +29,7 @@ frontend/src/*.js
 *.sources
 *.dmp
 package-cache/
+github-cache/
 *~
 
 # Logs

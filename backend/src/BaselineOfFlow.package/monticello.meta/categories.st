@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'BaselineOfFlow'!
+SystemOrganization addCategory: #BaselineOfFlow!
