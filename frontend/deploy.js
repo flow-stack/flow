@@ -1,6 +1,8 @@
 define([
     'amber/deploy',
     // --- packages to be deployed begin here ---
+    'amber-contrib-web/Web',   
+
     'text',
     'sightglass',
     'rlite',

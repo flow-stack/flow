@@ -60,7 +60,7 @@ initializeMain
 	^ main := MainController 
 					on: ExampleModel new
 					in: nil
-					appendingTo: '#main-wrapper' asJQuery
+					addOn: [ '#main-wrapper' asJQuery ]
 ! !
 
 ConfirmController subclass: #ConfirmNameController
@@ -139,7 +139,7 @@ nameModal
 		(ConfirmNameController 
 			on: model
 			in: self
-			appendingTo: '#confirmName' asJQuery)
+			addOn: [ '#confirmName' asJQuery ])
 				acceptBlock: [ 
 					model isConfirmed: true.
 					self nameModal close ];
@@ -235,7 +235,7 @@ example1
 		Example1Controller 
 			on: nil "We don't need to set any particular model for it"
 			in: self  "with this we are saying 'self is going to be your parent controller' (check implementors of #for:on:appendingTo:)"
-			appendingTo: '#subexample-wrapper' asJQuery ]
+			addOn: [ '#subexample-wrapper' asJQuery ] ]
 ! !
 
 !Example3Controller methodsFor: 'actions'!
@@ -304,7 +304,7 @@ things
 		(ListController 
 			on: self getListModel
 			in: self
-			appendingTo: '#things-wrapper' asJQuery)
+			addOn: [ '#things-wrapper' asJQuery ])
 			newItemControllerBlock: [ :item | 
 				self newItemControllerFor: item for: self things ];
 			yourself ]
@@ -324,7 +324,7 @@ details
 	^ self ifAbsentAt: #details put: [
 		ThingDetailsController
 			in: self
-			appendingTo: '#details-wrapper' asJQuery ]
+			addOn: [ '#details-wrapper' asJQuery ] ]
 !
 
 getListModel
@@ -346,7 +346,7 @@ newItemControllerFor: aModel for: aListController
 	row := ThingRowController 
 				on: aModel
 				in: aListController
-				appendingTo: aListController view.
+				addOn: [ aListController view ].
 				
 	row
 		when: #removeThing do: [ self onRemove: aModel ];
@@ -425,7 +425,7 @@ localThings
 	^ self ifAbsentAt: #localThings put: [
 		(ListController 
 			in: self
-			appendingTo: '#local-things-wrapper' asJQuery)
+			addOn: [ '#local-things-wrapper' asJQuery ])
 				newItemControllerBlock: [ :item | 
 					self newLocalThingControllerFor: item for: self localThings ];
 				yourself ]
@@ -436,7 +436,7 @@ remoteThings
 	^ self ifAbsentAt: #remoteThings put: [
 		(ListController 
 			in: self
-			appendingTo: '#remote-things-wrapper' asJQuery)
+			addOn: [ '#remote-things-wrapper' asJQuery ])
 				newItemControllerBlock: [ :item | 
 					self newRemoteThingControllerFor: item for: self remoteThings ];
 				yourself ]
@@ -482,7 +482,7 @@ getRemoteThings
 	
 	| promise |
 
-	promise :=  jQuery Deferred value.
+	promise :=  JQuery current Deferred value.
 	
 	Thing findAllThen: [ :things | promise resolve: things ].
 	
@@ -507,7 +507,7 @@ getThings
 	
 	| promise |
 
-	promise :=  jQuery Deferred value.
+	promise :=  JQuery current Deferred value.
 	
 	Thing findAllThen: [ :things | promise resolve: things ].
 	
@@ -522,7 +522,7 @@ newLocalThingControllerFor: aModel for: aListController
 	row := ThingViewEditorRowController 
 				on: aModel
 				in: aListController
-				appendingTo: aListController view.
+				addOn: [ aListController view ].
 				
 	row
 		when: #removeThing: do: [ :aThing | self onRemoveLocal: aThing ];
@@ -540,7 +540,7 @@ newRemoteThingControllerFor: aModel for: aListController
 	row := ThingViewEditorRowController 
 				on: aModel
 				in: aListController
-				appendingTo: aListController view.
+				addOn: [ aListController view ].
 				
 	row
 		when: #removeThing: do: [ :aThing | self onRemoveRemote: aThing ];
@@ -684,7 +684,7 @@ example1
 		Example1Controller 
 			on: model
 			in: self
-			appendingTo: '#example1-wrapper' asJQuery ]
+			addOn: [ '#example1-wrapper' asJQuery ] ]
 !
 
 example2
@@ -698,7 +698,7 @@ example2
 					someStringNumericValue: '1776';
 					yourself)
 			in: self
-			appendingTo: '#example2-wrapper' asJQuery ]
+			addOn: [ '#example2-wrapper' asJQuery ] ]
 !
 
 example3
@@ -707,7 +707,7 @@ example3
 		Example3Controller 
 			on: model
 			in: self
-			appendingTo: '#example3-wrapper' asJQuery ]
+			addOn: [ '#example3-wrapper' asJQuery ] ]
 !
 
 example4
@@ -716,7 +716,7 @@ example4
 		Example4Controller 
 			on: ThingModel new
 			in: self
-			appendingTo: '#example4-wrapper' asJQuery ]
+			addOn: [ '#example4-wrapper' asJQuery ] ]
 !
 
 example5
@@ -725,7 +725,7 @@ example5
 		Example5Controller 
 			on: ThingModel new
 			in: self
-			appendingTo: '#example5-wrapper' asJQuery ]
+			addOn: [ '#example5-wrapper' asJQuery ] ]
 ! !
 
 !MainController methodsFor: 'actions'!

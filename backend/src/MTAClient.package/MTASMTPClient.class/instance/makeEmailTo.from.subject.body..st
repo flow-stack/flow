@@ -6,4 +6,4 @@ makeEmailTo: aReceiverAddress from: aSenderAddress subject: aSubjectString body:
 		from: aSenderAddress;
 		subject: aSubjectString;
 		body: aMessageString;
-		yourself 
+		yourself

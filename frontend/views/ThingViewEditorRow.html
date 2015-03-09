@@ -1,9 +1,9 @@
-<div class="thing-row row" >
+<li class="list-group-item">
 
-	<div
+	<span
 		for="description"
 		rv-hide="controller.isEditor"
-		rv-text="model.description"></div>
+		rv-text="model.description"></span>
 
 	<input 
 		rv-show="controller.isEditor"
@@ -15,14 +15,18 @@
 
 	<a 
 		rv-show="controller.isEditor"
-		class="btn btn-info pull-right"
+		class="btn btn-primary pull-right"
 		rv-on-click="controller._beView">Okay</a>
-	<a 
+	<div 
 		rv-hide="controller.isEditor"
-		class="btn btn-info pull-right"
-		rv-on-click="controller._beEditor">Edit</a>
-	<a 
-		rv-hide="controller.isEditor"
-		class="btn btn-danger pull-right"
-		rv-on-click="controller._removeThing">Remove</a>
-</div>
+		class="btn-group pull-right" 
+		role="group" 
+		aria-label="...">	
+		<a 
+			class="btn btn-info "
+			rv-on-click="controller._beEditor">Edit</a>
+		<a 
+			class="btn btn-default glyphicon glyphicon-trash"
+			rv-on-click="controller._removeThing"> Remove</a>
+	</div>
+</li>

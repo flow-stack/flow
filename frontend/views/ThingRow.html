@@ -1,10 +1,17 @@
-<div class="thing-row row" >
+<li class="list-group-item" >
 	<label for="name">Name:</label>
 	<span>{model.name}</span>
-	<a 
-		class="btn btn-info pull-right"
-		rv-on-click="controller._viewDetails">View details</a>
-	<a 
-		class="btn btn-danger pull-right"
-		rv-on-click="controller._removeThing">Remove</a>
-</div>
+
+	<div 
+		rv-hide="controller.isEditor"
+		class="btn-group pull-right" 
+		role="group" 
+		aria-label="...">
+		<a 
+			class="btn btn-info"
+			rv-on-click="controller._viewDetails">View details</a>
+		<a 
+			class="btn btn-default glyphicon glyphicon-trash"
+			rv-on-click="controller._removeThing"> Remove</a>
+	</div>
+</li>

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #MTAClient!
+SystemOrganization addCategory: #'MTAClient'!

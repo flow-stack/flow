@@ -1,3 +1,19 @@
+March 2, 2015 - Release 0.2.13
+===================================
+
+* We upgraded Mapless to the refactored packages version.
+* Also flow got refactored its packages in many easy to maintain packages.
+
+
+February 18, 2015 - Release 0.2.12
+===================================
+
+* Upgrades amber-mvc to 0.1.30
+* Upgrades Amber to 0.14.10
+* Fixes Example 5 and 6 to fit in this upgrade
+* Fixes backend to answer the normalized `id` after the RESTful create and update
+
+
 February 2, 2015 - Release 0.2.11
 ===================================
 
