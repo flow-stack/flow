@@ -1,6 +1,6 @@
 *flow*
 ====
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/flow-stack/flow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/flow-stack/flow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/sebastianconcept/flow)
 
 A living full-stack framework for the web. 
